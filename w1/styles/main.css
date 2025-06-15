@@ -1,0 +1,103 @@
+
+/* Define default text size. Text sized differently will be sized relative to this. */
+body * {
+    font-size: 100%;
+}
+
+/* Define the size of our headers */
+h1 {
+    margin-bottom: 0;
+    font-size: 2.0em;
+}
+
+h2 {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+/* Set 50% max width for all images */
+img {
+    max-width: 50%;
+}
+
+/* Remove most margin to keep figures in line with other elements */
+figure {
+    margin-left: 2px;
+}
+
+/* Format our navigation menu */
+ul {
+    margin-top: 5px;
+}
+
+a {
+    color: lightskyblue;
+}
+
+a:hover {
+    color: blue;
+}
+
+/* Format our subtitles */
+#main-sub {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+#malware-sub {
+    font-size: 1.5rem;
+}
+
+/* Format the elements in our text form */
+fieldset {
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.scam-form *{
+    margin-left: 8px;
+}
+
+.submit-button {
+    background-color: gray;
+    border: none;
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+
+.submit-button:hover {
+    background-color: darkgray;
+}
+
+
+/* Modify table appearance */
+table, td {
+    border: 1px solid;
+}
+
+td {
+    padding: 2px;
+}
+
+table {
+    /* Keep single-layer border */
+    border-collapse: collapse;
+}
+
+#malware-table caption {
+    font-size: 1.2rem;
+}
+
+/* Adjust width of each image */
+#customer {
+    width: 250px;
+}
+
+#akash {
+    width: 300px;
+}
+
+#hacker {
+    width: 300px;
+}
+

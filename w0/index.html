@@ -1,0 +1,71 @@
+
+<!doctype html>
+<html>
+    <head>
+        <!--Webpage title that appears in the browser tab-->
+        <title>Scam calls for u</title>
+    </head>
+    <body>
+        
+        <h1>Scam call signup sheet</h1>
+        <!--I've been told it's bad practice to use HTML for formatting, but CSS isn't allowed.-->
+        <h3><i>"We've been trying to reach you..."</i></h3>
+
+        <p>This is real. Your number will be sent to Akash, a scammer in Mumbai.</p>
+
+        <!--Form, required by the assignment-->
+        <form>
+            <!--Text field for a phone number with type set to 'tel'.  
+            This instructs mobile browsers to pull up the number pad-->
+            <label for="phone">Phone number:</label><br>
+            <input type="tel" id="phone" name="phone"><br>
+
+            <br>
+
+            <!--A multiselect option.  IDs, names and aren't necessary yet.-->
+            <fieldset>
+                <legend>I'd like to hear about:</legend>
+                <input type="checkbox" id="topic1" name="topic1" value="warranty">
+                <label for="op1">my car's extended warranty.</label><br>
+                <input type="checkbox" id="topic2" name="topic2" value="lottery">
+                <label for="op2">foreign lotteries that I've won.</label><br>
+                <input type="checkbox" id="topic3" name="topic3" value="princes">
+                <label for="op3">tax-dodging Nigerian Princes.</label><br> 
+                <input type="checkbox" id="topic4" name="topic4" value="lives">
+                <label for="op4">the lives and personal struggles of our staff.<br> 
+            </fieldset>
+            
+            <!--A single select option-->
+            <fieldset>
+                <legend>I want to receive a scam call: </legend>
+                <input type="radio" id="freq1" name="freq1" value="day">
+                <label for="freq1">once per day.</label><br>
+                <input type="radio" id="freq2" name="freq2" value="week">
+                <label for="freq2">7 times per week.</label><br>
+                <input type="radio" id="freq3" name="freq3" value="hour">
+                <label for="freq3">365 times per year.</label><br>
+                <input type="radio" id="freq4" name="freq4" value="akash" checked="checked">
+                <label for="freq4">whenever Akash needs someone to talk to.</label><br>
+            </fieldset>
+
+            <!--The button does nothing, for now-->
+            <input type="submit">
+
+        </form> 
+
+        <!--Used a figure and figcaption because that's apparently the right way to caption an image-->
+        <figure>
+            <img src="res/customer.jpg" alt="A customer" width="250">
+            <figcaption>One of our satisfied customers.</figcaption>
+        </figure>
+
+        <!--A navigation menu.-->
+        <footer>
+            <h2>Related links</h2>
+            <ul class="nav-links">
+                <li><a href="ransomware.html">Download ransomware</a></li>
+                <li><a href="akash.html">Click here to meet Akash</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
