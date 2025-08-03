@@ -150,6 +150,9 @@ while (!p1.deck.isEmpty()) {
     round ++
 }
 
+// Print final scores
+console.log(p1.name + ": " + p1.score + " " + p2.name + ": " + p2.score)
+
 winner = getWinner(p1, p2)
 let gameConclusion = "Tie game"
 if (winner != null) {
