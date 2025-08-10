@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The List</title>
+    <link rel="stylesheet" href="styles/main.css">
+    
+</head>
+<body>
+
+<h2>Add a name</h2>
+
+<form id="dataForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="number" id="visits" placeholder="Number of visits" required>
+    <input type="submit" value="Add">
+</form>
+
+<h2>The List</h2>
+
+<table id="dataTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th># of Visits</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Ghislaine Maxwell</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Andrew, Duke of York</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Bill Clinton</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>REDACTED</td>
+            <td>75,849,327,6432,8</td>
+        </tr>
+        <tr>
+            <td>Bruce Willis</td>
+            <td>one</td>
+        </tr>
+        <tr>
+            <td>Kevin Spacey</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Al Gore</td>
+            <td>2</td>
+        </tr>
+        <tr class="justFoundTodayActually">
+            <td>Sleepy Joe</td>
+            <td>69</td>
+        </tr>
+        <tr class="justFoundTodayActually">
+            <td>Brock Obamna</td>
+            <td>14</td>
+        </tr>
+    </tbody>
+</table>
+
+<script src="js/form.js"></script>
+
+</body>
+</html>
