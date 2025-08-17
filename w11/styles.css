@@ -1,0 +1,53 @@
+
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#page {
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+    font-family: system-ui, sans-serif;
+}
+
+/* The outer square that scales with page width */
+#grid-box {
+
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    min-width: 240px;
+    container-type: inline-size;
+}
+
+/* 3×3 grid */
+.grid {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 8px;
+    font-size: 35cqw;
+}
+
+.cell {
+    min-height: 0;
+    display: inline-block;
+    border: 2px solid #222;
+    background: #fff;
+    
+    text-align: center;
+    line-height: 75%;
+}
+
+#gameText {
+    position:relative;
+    min-height: 50px;
+}
+
+#reset {
+    font-size: 2em;
+    margin: 10px;
+}
