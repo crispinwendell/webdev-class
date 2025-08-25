@@ -1,0 +1,59 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.control-input {
+    aspect-ratio: 1/1;
+}
+
+
+#button-grid {
+    display:grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-aspect-ratio: 1/1) {
+    #button-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-aspect-ratio: 1/1) {
+    #button-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.control-module {
+    display: grid;
+    container-type: inline-size;
+}
+
+.input-desc {
+    font-size: 10cqw;
+}
+
+.input-instructions {
+    font-size: 7cqw;
+}
+
+.status-label {
+    font-size: 8cqw;
+}
+
+#freq-container {
+    display: grid;
+    width: 100%
+}
+
+#frequency-select {
+    flex: 1;
+    font-size: 5cqw;
+}
+
+#frequency-label {
+    font-size: 4cqw;
+    text-align: left;
+}

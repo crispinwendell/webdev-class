@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Bike Recovery</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <main id="page">
+        <h1 id="gameText"></h1>
+        <div id="control-panel">
+            <div id="freq-container">
+            <label for="frequency-select" id="frequency-label">Update Frequency:</label>
+            <select id="frequency-select">
+                <option value="low-alert">Every 30 Minutes</option>
+                <option value="med-alert">Every 1 Minute</option>
+                <option value="high-alert">Every 1 Second</option>
+            </select>
+            </div>
+            <div id="button-grid">
+                <div class="control-module">
+                    <label class="status-label">Wheels: Unlocked</label>
+                    <button class="control-input" id="full-brakes"><p class="input-desc">LOCK WHEELS</p><p class="input-instructions">(TAP OR CLICK)</p></button>
+                </div>
+                <div class="control-module">
+                    <label class="status-label">Motor: Enabled</label>
+                    <button class="control-input" id="disable-throttle"><p class="input-desc">DISABLE MOTOR</p><p class="input-instructions">(TAP OR CLICK)</p></button>
+                </div>
+                <div class="control-module">
+                    <label class="status-label">Horn: Silent</label>
+                    <button class="control-input" id="full-brakes"><p class="input-desc">ACTIVATE HORN</p><p class="input-instructions">(HOLD 3 SECONDS)</p></button>
+                </div>
+            </div>
+        </div>
+        <button id="reset">Reset</button>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
